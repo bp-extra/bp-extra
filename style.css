@@ -1,0 +1,78 @@
+body, html{
+	background-color:#000;
+	color:white;
+	font-family: monospace, sans-serif;
+	margin:0;
+}
+
+#page {
+	display: flex;
+	height:100%;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+
+#content-wrapper {
+}
+
+#spell_definition {
+	display: none;
+	max-width: 600px;
+	flex:1;
+}
+
+#options_container {
+	display: flex;
+	justify-content: space-center;
+	font-size:10pt;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+#table_container {
+}
+
+.option {
+	flex: 1;
+	display: flex;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	justify-content: center;
+}
+
+.option_selected {
+	color: #000;
+	background-color:#fff;
+}
+
+#rules {
+	display: none;
+	max-width: 600px;
+	flex:1;
+}
+
+a {
+	background-color:#fff;
+	text-decoration: none;
+	color:#000;
+}
+
+/*
+ * spells table stuff
+*/
+
+#spells_table {
+	border-collapse: collapse;
+}
+
+#spells_tablel td:hover {
+	border-right: 1px solid #fff;
+}
+
+#spells_table td, #spells_table th {
+    padding: 8px;
+}
+
+#spells_table tr:hover {background-color: #fff; color:black;}
+
